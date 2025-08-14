@@ -21,3 +21,9 @@ def get_paths(files:list) -> str:
             temp_path = tmp.name
         paths.append(temp_path)
     return paths
+
+def get_thinking_in_language() -> str:
+    return "Thinking in language model..."
+
+def get_chat_title() -> str:
+    return "Eclipse Chatbot"
